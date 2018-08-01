@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "ansi-diff-stream": "1.2.1",
+    "ansi-escapes": "3.1.0",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "keypress": "0.2.1",
+    "node-getopt": "0.3.2",
+    "random-js": "1.0.8",
+    "ws": "5.2.0"
+  },
+  "scripts": {
+    "stats.example": "node stats.js https://hola.org/challenges/haggling/scores/standard_1s labarilem@example",
+    "stats.test.example": "node stats.js https://hola.org/challenges/haggling/scores/standard labarilem@example",
+    "fight.example": "node src/haggle.js --id labarilem@example src/example.js wss://hola.org/challenges/haggling/arena/standard_1s",
+    "fight.example.forever": "powershell .\\forever.ps1 -script fight.example",
+    "fight.test.example": "node src/haggle.js --id labarilem@example src/example.js wss://hola.org/challenges/haggling/arena/standard",
+    "fight.test.example.forever": "powershell .\\forever.ps1 -script fight.test.example",
+
+    "stats.simple": "node stats.js https://hola.org/challenges/haggling/scores/standard_1s labarilem@simple9",
+    "fight.simple": "node src/haggle.js --id labarilem@simple9 src/simple.js wss://hola.org/challenges/haggling/arena/standard_1s",
+    "fight.simple.forever": "powershell .\\forever.ps1 -script fight.simple",
+    "fight.test.simple": "node src/haggle.js --id labarilem@simple9 src/simple.js wss://hola.org/challenges/haggling/arena/standard",
+    "fight.test.simple.forever": "powershell .\\forever.ps1 -script fight.test.simple"
+  }
+}
